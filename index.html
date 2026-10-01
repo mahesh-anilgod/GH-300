@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#1f6feb">
+    <title>GH-300 Practice Test</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="top-bar">
+        <div class="header-inner">
+            <div>
+                <h1>GH-300 Practice Test</h1>
+                <p class="subtitle">GitHub Copilot practice questions</p>
+            </div>
+            <button id="homeButton" class="secondary-button hidden">Home</button>
+        </div>
+    </header>
+
+    <main class="container">
+        <section id="homeScreen">
+            <div id="resumeCard" class="card resume-card hidden">
+                <div>
+                    <span class="status-label">Test in progress</span>
+                    <h2 id="resumeTitle">Resume your test</h2>
+                    <p id="resumeDetails"></p>
+                </div>
+                <div class="button-row">
+                    <button id="resumeButton" class="primary-button">Resume</button>
+                    <button id="discardButton" class="secondary-button">Discard</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <h2>Start a new test</h2>
+                <p class="muted">
+                    Choose how many questions you want to answer. Questions are selected from
+                    <strong id="questionCount">...</strong> questions in your question file.
+                </p>
+
+                <div class="test-size-grid">
+                    <button class="size-button" data-size="25">
+                        <strong>25</strong>
+                        <span>Questions</span>
+                    </button>
+                    <button class="size-button" data-size="50">
+                        <strong>50</strong>
+                        <span>Questions</span>
+                    </button>
+                    <button class="size-button" data-size="100">
+                        <strong>100</strong>
+                        <span>Questions</span>
+                    </button>
+                </div>
+
+                <div class="option-note">
+                    <strong>How it works</strong>
+                    <ul>
+                        <li>Your answer is checked when you submit each question.</li>
+                        <li>The correct answer and explanation are then revealed.</li>
+                        <li>Your current test is saved automatically, so you can close the browser and resume later.</li>
+                        <li>At the end, you can retake only the questions you got wrong.</li>
+                        <li>Your completed attempts are saved in this browser's local storage.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="section-heading">
+                    <div>
+                        <h2>Attempt history</h2>
+                        <p class="muted">Completed tests are stored only in this browser.</p>
+                    </div>
+                    <button id="clearHistoryButton" class="danger-text-button">Clear history</button>
+                </div>
+                <div id="historyContainer"></div>
+            </div>
+        </section>
+
+        <section id="testScreen" class="hidden">
+            <div class="test-header card">
+                <div>
+                    <span id="testModeLabel" class="status-label">Practice Test</span>
+                    <h2 id="testTitle">GH-300 Practice Test</h2>
+                </div>
+                <div class="test-progress-summary">
+                    <strong id="progressText">Question 1 of 25</strong>
+                    <span id="scoreText">Score: 0</span>
+                </div>
+            </div>
+
+            <div class="progress-track">
+                <div id="progressBar" class="progress-bar"></div>
+            </div>
+
+            <div class="card question-card">
+                <div class="question-number" id="questionNumber">Question 1</div>
+                <h2 id="questionText">Loading question...</h2>
+
+                <div id="optionsContainer" class="options-container"></div>
+
+                <div id="answerResult" class="answer-result hidden"></div>
+
+                <div class="question-actions">
+                    <button id="submitButton" class="primary-button">Submit Answer</button>
+                    <button id="nextButton" class="primary-button hidden">Next Question</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="resultScreen" class="hidden">
+            <div class="card result-card">
+                <span class="status-label">Test completed</span>
+                <h2 id="resultTitle">Your Result</h2>
+
+                <div class="score-circle">
+                    <strong id="finalPercentage">0%</strong>
+                    <span id="finalScore">0 / 0</span>
+                </div>
+
+                <div id="resultSummary" class="result-summary"></div>
+
+                <div class="button-row center">
+                    <button id="retakeIncorrectButton" class="primary-button">Retake Incorrect Answers</button>
+                    <button id="newTestButton" class="secondary-button">Start New Test</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <h2>Question review</h2>
+                <div id="reviewContainer"></div>
+            </div>
+        </section>
+    </main>
+
+    <div id="loadingOverlay" class="loading-overlay">
+        <div class="spinner"></div>
+        <span>Loading questions...</span>
+    </div>
+
+    <div id="toast" class="toast hidden"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>

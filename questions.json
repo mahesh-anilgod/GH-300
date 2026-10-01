@@ -1,0 +1,2679 @@
+[
+  {
+    "id": "gh300-001",
+    "question": "Which GitHub Copilot plan allows for prompt and suggestion collection?",
+    "options": [
+      {
+        "key": "A",
+        "text": "GitHub Copilot Individuals"
+      },
+      {
+        "key": "B",
+        "text": "GitHub Copilot Business"
+      },
+      {
+        "key": "C",
+        "text": "GitHub Copilot Enterprise"
+      },
+      {
+        "key": "D",
+        "text": "GitHub Copilot Codespace"
+      }
+    ],
+    "correctAnswers": [
+      "C"
+    ],
+    "explanation": "The correct answer is C: GitHub Copilot Enterprise. Effective prompting improves results by supplying the model with relevant context, constraints, examples, or success criteria instead of expecting it to infer missing requirements."
+  },
+  {
+    "id": "gh300-002",
+    "question": "Which of the following is correct about GitHub Copilot Knowledge Bases?",
+    "options": [
+      {
+        "key": "A",
+        "text": "All repos are indexed"
+      },
+      {
+        "key": "B",
+        "text": "Indexing is static"
+      },
+      {
+        "key": "C",
+        "text": "It is an Enterprise feature"
+      },
+      {
+        "key": "D",
+        "text": "All file types are indexed"
+      }
+    ],
+    "correctAnswers": [
+      "C"
+    ],
+    "explanation": "The correct answer is C: It is an Enterprise feature. This choice directly describes the supported Copilot behavior asked about, whereas the other options overstate automation, describe unrelated settings, or remove the need for developer review."
+  },
+  {
+    "id": "gh300-003",
+    "question": "What can be done during AI development to minimize bias?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Improve on the computational efficiency and speed."
+      },
+      {
+        "key": "B",
+        "text": "Focus on accuracy of the data."
+      },
+      {
+        "key": "C",
+        "text": "Collect massive amounts of data for training."
+      },
+      {
+        "key": "D",
+        "text": "Use diverse data, fairness metrics, and human oversight."
+      }
+    ],
+    "correctAnswers": [
+      "D"
+    ],
+    "explanation": "The correct answer is D: Use diverse data, fairness metrics, and human oversight.. Fairness requires identifying and reducing unequal outcomes through representative data, bias evaluation, appropriate metrics, and human oversight; scale or accuracy alone does not guarantee fairness."
+  },
+  {
+    "id": "gh300-004",
+    "question": "What is the best way to share feedback about GitHub Copilot Chat when using it on GitHub Mobile?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Use the emojis in the Copilot Chat interface."
+      },
+      {
+        "key": "B",
+        "text": "The feedback section on the GitHub website."
+      },
+      {
+        "key": "C",
+        "text": "By tweeting at GitHub's official X (Twitter) account."
+      },
+      {
+        "key": "D",
+        "text": "The Settings menu in the GitHub Mobile app."
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "explanation": "The correct answer is A: Use the emojis in the Copilot Chat interface.. This choice directly describes the supported Copilot behavior asked about, whereas the other options overstate automation, describe unrelated settings, or remove the need for developer review."
+  },
+  {
+    "id": "gh300-005",
+    "question": "How does GitHub Copilot assist developers in reducing the amount of manual boilerplate code they write?",
+    "options": [
+      {
+        "key": "A",
+        "text": "By engaging in real-time collaboration with multiple developers to write boilerplate code."
+      },
+      {
+        "key": "B",
+        "text": "By predicting future coding requirements and pre-emptively generating boilerplate code."
+      },
+      {
+        "key": "C",
+        "text": "By refactoring the entire codebase to eliminate boilerplate code without developer input."
+      },
+      {
+        "key": "D",
+        "text": "By suggesting code snippets that can be reused across different parts of the project."
+      }
+    ],
+    "correctAnswers": [
+      "D"
+    ],
+    "explanation": "The correct answer is D: By suggesting code snippets that can be reused across different parts of the project.. This choice directly describes the supported Copilot behavior asked about, whereas the other options overstate automation, describe unrelated settings, or remove the need for developer review."
+  },
+  {
+    "id": "gh300-006",
+    "question": "How does GitHub Copilot Chat help to fix security issues in your codebase?",
+    "options": [
+      {
+        "key": "A",
+        "text": "By enforcing strict coding standards that prevent the introduction of vulnerabilities."
+      },
+      {
+        "key": "B",
+        "text": "By providing detailed reports on the security vulnerabilities present in the codebase."
+      },
+      {
+        "key": "C",
+        "text": "By annotating the given suggestions with known vulnerability patterns."
+      },
+      {
+        "key": "D",
+        "text": "By automatically refactoring the entire codebase to remove vulnerabilities."
+      }
+    ],
+    "correctAnswers": [
+      "C"
+    ],
+    "explanation": "The correct answer is C: By annotating the given suggestions with known vulnerability patterns.. AI-generated code can contain insecure patterns, so suggestions should be reviewed, tested, and checked with normal security practices rather than treated as automatically safe."
+  },
+  {
+    "id": "gh300-007",
+    "question": "Which Microsoft ethical AI principle is aimed at ensuring AI systems treat all people equally?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Inclusiveness"
+      },
+      {
+        "key": "B",
+        "text": "Fairness"
+      },
+      {
+        "key": "C",
+        "text": "Reliability and Safety"
+      },
+      {
+        "key": "D",
+        "text": "Privacy and Security"
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": "The correct answer is B: Fairness. Fairness requires identifying and reducing unequal outcomes through representative data, bias evaluation, appropriate metrics, and human oversight; scale or accuracy alone does not guarantee fairness."
+  },
+  {
+    "id": "gh300-008",
+    "question": "How is GitHub Copilot Individual billed? (Each correct answer presents part of the solution. Choose two.)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Monthly as a subscription"
+      },
+      {
+        "key": "B",
+        "text": "Annually as a subscription"
+      },
+      {
+        "key": "C",
+        "text": "Monthly, as a metered service based on actual consumption"
+      },
+      {
+        "key": "D",
+        "text": "Free (not billed) for all open source projects"
+      }
+    ],
+    "correctAnswers": [
+      "A",
+      "B"
+    ],
+    "explanation": "The correct answers are A, B: Monthly as a subscription; Annually as a subscription. The selected answer matches the plan or billing capability described in this question, while the distractors either target a different customer type or name a plan or payment method that does not satisfy the stated requirement."
+  },
+  {
+    "id": "gh300-009",
+    "question": "How can the insights gained from the metrics API be used to improve the development process in conjunction with GitHub Copilot?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Real-time debugging and error resolution statistics."
+      },
+      {
+        "key": "B",
+        "text": "Insights on the types of coding languages where GitHub Copilot is most helpful."
+      },
+      {
+        "key": "C",
+        "text": "Automated generation of complete project documentation."
+      },
+      {
+        "key": "D",
+        "text": "Detailed analysis of GitHub Copilot's suggestions vs. manual coding."
+      }
+    ],
+    "correctAnswers": [
+      "D"
+    ],
+    "explanation": "The correct answer is D: Detailed analysis of GitHub Copilot's suggestions vs. manual coding.. Copilot APIs expose usage or seat-management information that administrators can use for adoption analysis and subscription management; they do not generate code or judge code quality automatically."
+  },
+  {
+    "id": "gh300-010",
+    "question": "How can GitHub Copilot facilitate a smoother learning experience when diving into a new programming language? (Each correct answer presents part of the solution. Choose two.)",
+    "options": [
+      {
+        "key": "A",
+        "text": "GitHub Copilot Chat can provide guidance and support for common coding tasks and challenges in the targeted programming language."
+      },
+      {
+        "key": "B",
+        "text": "GitHub Copilot's /understand command will help GitHub Copilot to understand code written in a targeted programming language."
+      },
+      {
+        "key": "C",
+        "text": "GitHub Copilot can provide contextualized code suggestions and answer sources from an organization's documentation."
+      },
+      {
+        "key": "D",
+        "text": "GitHub Copilot can convert comments into code to grasp the syntax and nuances of a new programming language."
+      }
+    ],
+    "correctAnswers": [
+      "A",
+      "D"
+    ],
+    "explanation": "The correct answers are A, D: GitHub Copilot Chat can provide guidance and support for common coding tasks and challenges in the targeted programming language.; GitHub Copilot can convert comments into code to grasp the syntax and nuances of a new programming language.. This choice directly describes the supported Copilot behavior asked about, whereas the other options overstate automation, describe unrelated settings, or remove the need for developer review."
+  },
+  {
+    "id": "gh300-011",
+    "question": "A company is currently storing code in Bitbucket and would like to use GitHub Copilot. Which GitHub Copilot plan will be most cost effective to allow them to manage users with their Identity Provider (e.g. Okta)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "GitHub Copilot Business for non-GHE customers"
+      },
+      {
+        "key": "B",
+        "text": "GitHub Copilot Individual"
+      },
+      {
+        "key": "C",
+        "text": "GitHub Copilot Enterprise"
+      },
+      {
+        "key": "D",
+        "text": "GitHub Copilot Teams"
+      }
+    ],
+    "correctAnswers": [
+      "C"
+    ],
+    "explanation": "The correct answer is C: GitHub Copilot Enterprise. The selected answer matches the plan or billing capability described in this question, while the distractors either target a different customer type or name a plan or payment method that does not satisfy the stated requirement."
+  },
+  {
+    "id": "gh300-012",
+    "question": "How does the /tests slash command assist developers?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Constructs detailed test documentation."
+      },
+      {
+        "key": "B",
+        "text": "Creates unit tests for the selected code."
+      },
+      {
+        "key": "C",
+        "text": "Integrates with external testing frameworks."
+      },
+      {
+        "key": "D",
+        "text": "Executes test cases to find issues with the code."
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": "The correct answer is B: Creates unit tests for the selected code.. Copilot can generate or suggest tests from the available code context, but developers still need to review coverage, assertions, edge cases, and correctness."
+  },
+  {
+    "id": "gh300-013",
+    "question": "How can you get multiple suggestions from GitHub Copilot?",
+    "options": [
+      {
+        "key": "A",
+        "text": "By asking for multiple suggestions using comments in your code"
+      },
+      {
+        "key": "B",
+        "text": "By opening the completions panel in your editor"
+      },
+      {
+        "key": "C",
+        "text": "By using the inline chat functionality with the command 'multiple'"
+      },
+      {
+        "key": "D",
+        "text": "By using @workspace in the chat window"
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": "The correct answer is B: By opening the completions panel in your editor. This choice directly describes the supported Copilot behavior asked about, whereas the other options overstate automation, describe unrelated settings, or remove the need for developer review."
+  },
+  {
+    "id": "gh300-014",
+    "question": "Where is the proxy service hosted?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Self hosted"
+      },
+      {
+        "key": "B",
+        "text": "Amazon Web Service"
+      },
+      {
+        "key": "C",
+        "text": "Microsoft Azure"
+      },
+      {
+        "key": "D",
+        "text": "Google Cloud Platform"
+      }
+    ],
+    "correctAnswers": [
+      "C"
+    ],
+    "explanation": "The correct answer is C: Microsoft Azure. This choice directly describes the supported Copilot behavior asked about, whereas the other options overstate automation, describe unrelated settings, or remove the need for developer review."
+  },
+  {
+    "id": "gh300-015",
+    "question": "What reasons could apply if code suggestions are not working in your editor? (Select three.)",
+    "options": [
+      {
+        "key": "A",
+        "text": "You are working in files included in your .gitignore"
+      },
+      {
+        "key": "B",
+        "text": "You do not have an active internet connection"
+      },
+      {
+        "key": "C",
+        "text": "Your programming language is not supported"
+      },
+      {
+        "key": "D",
+        "text": "Your content exclusion is active and blocks the use of GitHub Copilot"
+      },
+      {
+        "key": "E",
+        "text": "You do not have a valid GitHub Copilot license"
+      }
+    ],
+    "correctAnswers": [
+      "B",
+      "C",
+      "E"
+    ],
+    "explanation": "The correct answers are B, C, E: You do not have an active internet connection; Your programming language is not supported; You do not have a valid GitHub Copilot license. This choice directly describes the supported Copilot behavior asked about, whereas the other options overstate automation, describe unrelated settings, or remove the need for developer review."
+  },
+  {
+    "id": "gh300-016",
+    "question": "Identify the steps involved in the life cycle of a GitHub Copilot code suggestion? (Each correct answer presents part of the solution. Choose two.)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Generate suggestions"
+      },
+      {
+        "key": "B",
+        "text": "Capturing the user's context"
+      },
+      {
+        "key": "C",
+        "text": "Processing telemetry data"
+      },
+      {
+        "key": "D",
+        "text": "Retraining the model"
+      },
+      {
+        "key": "E",
+        "text": "Storing user data"
+      }
+    ],
+    "correctAnswers": [
+      "A",
+      "B"
+    ],
+    "explanation": "The correct answers are A, B: Generate suggestions; Capturing the user's context. This choice directly describes the supported Copilot behavior asked about, whereas the other options overstate automation, describe unrelated settings, or remove the need for developer review."
+  },
+  {
+    "id": "gh300-017",
+    "question": "Which of the following steps correctly demonstrates how to establish an organization-wide policy for GitHub Copilot Business to restrict its use to certain repositories?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Apply policies through the GitHub Actions configuration"
+      },
+      {
+        "key": "B",
+        "text": "Create a copilot.policy file in each repository"
+      },
+      {
+        "key": "C",
+        "text": "Configure the policies in the organization settings"
+      },
+      {
+        "key": "D",
+        "text": "Create a copilot.policy in the .github repository"
+      }
+    ],
+    "correctAnswers": [
+      "C"
+    ],
+    "explanation": "The correct answer is C: Configure the policies in the organization settings. This choice directly describes the supported Copilot behavior asked about, whereas the other options overstate automation, describe unrelated settings, or remove the need for developer review."
+  },
+  {
+    "id": "gh300-018",
+    "question": "What kind of insights can the GitHub Copilot usage metrics API provide to help evaluate the effectiveness of GitHub Copilot? (Each correct answer presents part of the solution. Choose two.)",
+    "options": [
+      {
+        "key": "A",
+        "text": "The API can generate detailed reports on code quality improvements made by GitHub Copilot."
+      },
+      {
+        "key": "B",
+        "text": "The API can track the number of code suggestions accepted and used in the organization."
+      },
+      {
+        "key": "C",
+        "text": "The API can provide Copilot Chat specific suggestions acceptance metrics."
+      },
+      {
+        "key": "D",
+        "text": "The API can refactor your code to improve productivity."
+      },
+      {
+        "key": "E",
+        "text": "The API can provide feedback on coding style and standards compliance."
+      }
+    ],
+    "correctAnswers": [
+      "B",
+      "C"
+    ],
+    "explanation": "The correct answers are B, C: The API can track the number of code suggestions accepted and used in the organization.; The API can provide Copilot Chat specific suggestions acceptance metrics.. Copilot APIs expose usage or seat-management information that administrators can use for adoption analysis and subscription management; they do not generate code or judge code quality automatically."
+  },
+  {
+    "id": "gh300-019",
+    "question": "When using GitHub Copilot to identify missing tests in your codebase, which of the following is the most important factor to consider?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Using well-known coding practices in your repository."
+      },
+      {
+        "key": "B",
+        "text": "Ensuring that the correct context is available to GitHub Copilot."
+      },
+      {
+        "key": "C",
+        "text": "Close all the tabs in your IDE that do not have tests in them."
+      },
+      {
+        "key": "D",
+        "text": "Having a high test coverage percentage in the codebase."
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": "The correct answer is B: Ensuring that the correct context is available to GitHub Copilot.. Copilot can generate or suggest tests from the available code context, but developers still need to review coverage, assertions, edge cases, and correctness."
+  },
+  {
+    "id": "gh300-020",
+    "question": "How can you use GitHub Copilot to get inline suggestions for refactoring your code? (Select two.)",
+    "options": [
+      {
+        "key": "A",
+        "text": "By adding comments to your code and triggering a suggestion."
+      },
+      {
+        "key": "B",
+        "text": "By highlighting the code you want to fix, right-clicking, and selecting \"Fix using GitHub Copilot.\""
+      },
+      {
+        "key": "C",
+        "text": "By running the gh copilot fix command."
+      },
+      {
+        "key": "D",
+        "text": "By using the \"/fix\" command in GitHub Copilot in-line chat."
+      },
+      {
+        "key": "E",
+        "text": "By highlighting the code you want to fix, right-clicking, and selecting \"Refactor using GitHub Copilot.\""
+      }
+    ],
+    "correctAnswers": [
+      "A",
+      "E"
+    ],
+    "explanation": "The correct answers are A, E: By adding comments to your code and triggering a suggestion.; By highlighting the code you want to fix, right-clicking, and selecting \"Refactor using GitHub Copilot.\". Copilot can propose targeted improvements based on the code and prompt context, but it does not guarantee an optimal, complete, or automatically applied refactoring."
+  },
+  {
+    "id": "gh300-021",
+    "question": "An independent contractor develops applications for a variety of different customers. Assuming no concerns from their customers, which GitHub Copilot plan is best suited?",
+    "options": [
+      {
+        "key": "A",
+        "text": "GitHub Copilot Individual"
+      },
+      {
+        "key": "B",
+        "text": "GitHub Copilot Business"
+      },
+      {
+        "key": "C",
+        "text": "GitHub Copilot Business for non-GHE Customers"
+      },
+      {
+        "key": "D",
+        "text": "GitHub Copilot Enterprise"
+      },
+      {
+        "key": "E",
+        "text": "GitHub Copilot Teams"
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "explanation": "The correct answer is A: GitHub Copilot Individual. The selected answer matches the plan or billing capability described in this question, while the distractors either target a different customer type or name a plan or payment method that does not satisfy the stated requirement."
+  },
+  {
+    "id": "gh300-022",
+    "question": "Which Copilot Enterprise features are available in all commercially supported IDEs?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Inline suggestions"
+      },
+      {
+        "key": "B",
+        "text": "Pull request summaries"
+      },
+      {
+        "key": "C",
+        "text": "Knowledge bases"
+      },
+      {
+        "key": "D",
+        "text": "Chat"
+      }
+    ],
+    "correctAnswers": [
+      "A",
+      "D"
+    ],
+    "explanation": "The correct answers are A, D: Inline suggestions; Chat. This choice directly describes the supported Copilot behavior asked about, whereas the other options overstate automation, describe unrelated settings, or remove the need for developer review."
+  },
+  {
+    "id": "gh300-023",
+    "question": "What GitHub Copilot pricing plan gives you access to your company's knowledge bases?",
+    "options": [
+      {
+        "key": "A",
+        "text": "GitHub Copilot Individual"
+      },
+      {
+        "key": "B",
+        "text": "GitHub Copilot Business"
+      },
+      {
+        "key": "C",
+        "text": "GitHub Copilot Enterprise"
+      },
+      {
+        "key": "D",
+        "text": "GitHub Copilot Professional"
+      }
+    ],
+    "correctAnswers": [
+      "C"
+    ],
+    "explanation": "The correct answer is C: GitHub Copilot Enterprise. The selected answer matches the plan or billing capability described in this question, while the distractors either target a different customer type or name a plan or payment method that does not satisfy the stated requirement."
+  },
+  {
+    "id": "gh300-024",
+    "question": "What is the correct way to exclude specific files from being used by GitHub Copilot Business during code suggestions?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Modify the .gitignore file to include the specific files."
+      },
+      {
+        "key": "B",
+        "text": "Add the specific files to a copilot.ignore file."
+      },
+      {
+        "key": "C",
+        "text": "Use the GitHub Copilot settings in the user interface to exclude files."
+      },
+      {
+        "key": "D",
+        "text": "Rename the files to include the suffix _no_copilot."
+      }
+    ],
+    "correctAnswers": [
+      "C"
+    ],
+    "explanation": "The correct answer is C: Use the GitHub Copilot settings in the user interface to exclude files.. Content exclusion controls what repository content Copilot can directly use as context and can also disable suggestions in excluded files; it is managed through supported Copilot administration settings rather than .gitignore naming conventions."
+  },
+  {
+    "id": "gh300-025",
+    "question": "What caution should developers exercise when using GitHub Copilot for assistance with mathematical computations?",
+    "options": [
+      {
+        "key": "A",
+        "text": "GitHub Copilot's capability to optimize complex mathematical algorithms beyond manual coding."
+      },
+      {
+        "key": "B",
+        "text": "GitHub Copilot's ability to execute and verify mathematical results in real-time."
+      },
+      {
+        "key": "C",
+        "text": "GitHub Copilot's reliance on pattern-based responses without verifying computation accuracy."
+      },
+      {
+        "key": "D",
+        "text": "GitHub Copilot's automatic update of outdated mathematical formulas to modern standards."
+      }
+    ],
+    "correctAnswers": [
+      "C"
+    ],
+    "explanation": "The correct answer is C: GitHub Copilot's reliance on pattern-based responses without verifying computation accuracy.. Copilot generates likely responses from learned patterns and supplied context, so outputs may reproduce outdated, biased, inconsistent, or incorrect patterns and must be validated."
+  },
+  {
+    "id": "gh300-026",
+    "question": "What are the potential limitations of GitHub Copilot in maintaining existing codebases?",
+    "options": [
+      {
+        "key": "A",
+        "text": "GitHub Copilot can independently manage and resolve all merge conflicts in version control."
+      },
+      {
+        "key": "B",
+        "text": "GitHub Copilot might not fully understand the context and dependencies within a large codebase."
+      },
+      {
+        "key": "C",
+        "text": "GitHub Copilot's suggestions are always aware of the entire codebase."
+      },
+      {
+        "key": "D",
+        "text": "GitHub Copilot can refactor and optimize the entire codebase up to 10,000 lines of code."
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": "The correct answer is B: GitHub Copilot might not fully understand the context and dependencies within a large codebase.. Copilot Chat can use the available code context to explain behavior and suggest documentation, helping developers understand unfamiliar code without replacing technical review."
+  },
+  {
+    "id": "gh300-027",
+    "question": "What GitHub Copilot configuration needs to be enabled to protect against IP infringements?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Blocking public code matches"
+      },
+      {
+        "key": "B",
+        "text": "Blocking license check configuration"
+      },
+      {
+        "key": "C",
+        "text": "Allowing public code matches"
+      },
+      {
+        "key": "D",
+        "text": "Allowing license check configuration"
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "explanation": "The correct answer is A: Blocking public code matches. The public-code matching or duplication-detection policy is intended to identify and, when configured, block suggestions that closely match publicly available code."
+  },
+  {
+    "id": "gh300-028",
+    "question": "What is the primary purpose of organization audit logs in GitHub Copilot Business?",
+    "options": [
+      {
+        "key": "A",
+        "text": "To track the number of lines of code suggested by Copilot"
+      },
+      {
+        "key": "B",
+        "text": "To assign software licenses within the organization"
+      },
+      {
+        "key": "C",
+        "text": "To monitor code conflicts across repositories"
+      },
+      {
+        "key": "D",
+        "text": "To monitor administrator activities and actions within the organization"
+      }
+    ],
+    "correctAnswers": [
+      "D"
+    ],
+    "explanation": "The correct answer is D: To monitor administrator activities and actions within the organization. Audit logs are administrative records used to trace configuration and policy actions, not to expose individual generated suggestions or perform license assignment."
+  },
+  {
+    "id": "gh300-029",
+    "question": "What is zero-shot prompting?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Only giving GitHub Copilot a question as a prompt and no examples"
+      },
+      {
+        "key": "B",
+        "text": "Giving GitHub Copilot examples of the problem you want to solve"
+      },
+      {
+        "key": "C",
+        "text": "Telling GitHub Copilot it needs to show only the correct answer"
+      },
+      {
+        "key": "D",
+        "text": "Giving GitHub Copilot examples of the algorithm and outcome you want to use"
+      },
+      {
+        "key": "E",
+        "text": "Giving as little context to GitHub Copilot as possible"
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "explanation": "The correct answer is A: Only giving GitHub Copilot a question as a prompt and no examples. Effective prompting improves results by supplying the model with relevant context, constraints, examples, or success criteria instead of expecting it to infer missing requirements."
+  },
+  {
+    "id": "gh300-030",
+    "question": "When using GitHub Copilot Chat to generate boilerplate code for various test types, how can you guide the AI to follow the testing standards of your company?",
+    "options": [
+      {
+        "key": "A",
+        "text": "By using a specific setting in GitHub Copilot's configuration."
+      },
+      {
+        "key": "B",
+        "text": "By using a specific command in the terminal."
+      },
+      {
+        "key": "C",
+        "text": "By using specific prompt examples in your chat request."
+      },
+      {
+        "key": "D",
+        "text": "By using a specific slash command in the prompt."
+      }
+    ],
+    "correctAnswers": [
+      "C"
+    ],
+    "explanation": "The correct answer is C: By using specific prompt examples in your chat request.. Copilot can generate or suggest tests from the available code context, but developers still need to review coverage, assertions, edge cases, and correctness."
+  },
+  {
+    "id": "gh300-031",
+    "question": "How does GitHub Copilot typically handle code suggestions that involve deprecated features or syntax of programming languages?",
+    "options": [
+      {
+        "key": "A",
+        "text": "GitHub Copilot automatically updates deprecated features in its suggestions to the latest version."
+      },
+      {
+        "key": "B",
+        "text": "GitHub Copilot may suggest deprecated syntax or features if they are present in its training data."
+      },
+      {
+        "key": "C",
+        "text": "GitHub Copilot always filters out deprecated elements to promote the use of current standards."
+      },
+      {
+        "key": "D",
+        "text": "GitHub Copilot rejects all prompts involving deprecated features to avoid compilation errors."
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": "The correct answer is B: GitHub Copilot may suggest deprecated syntax or features if they are present in its training data.. Copilot generates likely responses from learned patterns and supplied context, so outputs may reproduce outdated, biased, inconsistent, or incorrect patterns and must be validated."
+  },
+  {
+    "id": "gh300-032",
+    "question": "What are the potential risks associated with relying heavily on code generated from GitHub Copilot? (Each correct answer presents part of the solution. Choose two.)",
+    "options": [
+      {
+        "key": "A",
+        "text": "GitHub Copilot may introduce security vulnerabilities by suggesting code with known exploits."
+      },
+      {
+        "key": "B",
+        "text": "GitHub Copilot may decrease developer velocity by requiring too much time in prompt engineering."
+      },
+      {
+        "key": "C",
+        "text": "GitHub Copilot's suggestions may not always reflect best practices or the latest coding standards."
+      },
+      {
+        "key": "D",
+        "text": "GitHub Copilot may increase development lead time by providing irrelevant suggestions."
+      }
+    ],
+    "correctAnswers": [
+      "A",
+      "C"
+    ],
+    "explanation": "The correct answers are A, C: GitHub Copilot may introduce security vulnerabilities by suggesting code with known exploits.; GitHub Copilot's suggestions may not always reflect best practices or the latest coding standards.. This choice directly describes the supported Copilot behavior asked about, whereas the other options overstate automation, describe unrelated settings, or remove the need for developer review."
+  },
+  {
+    "id": "gh300-033",
+    "question": "How does GitHub Copilot suggest code optimizations for improved performance?",
+    "options": [
+      {
+        "key": "A",
+        "text": "By analyzing the codebase and suggesting more efficient algorithms or data structures."
+      },
+      {
+        "key": "B",
+        "text": "By automatically rewriting the codebase to use more efficient code."
+      },
+      {
+        "key": "C",
+        "text": "By enforcing strict coding standards that ensure optimal performance."
+      },
+      {
+        "key": "D",
+        "text": "By providing detailed reports on the performance of the codebase."
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "explanation": "The correct answer is A: By analyzing the codebase and suggesting more efficient algorithms or data structures.. Copilot can propose targeted improvements based on the code and prompt context, but it does not guarantee an optimal, complete, or automatically applied refactoring."
+  },
+  {
+    "id": "gh300-034",
+    "question": "Which of the following scenarios best describes the intended use of GitHub Copilot Chat as a tool?",
+    "options": [
+      {
+        "key": "A",
+        "text": "A complete replacement for developers generating code."
+      },
+      {
+        "key": "B",
+        "text": "A productivity tool that provides suggestions, but relying on human judgment."
+      },
+      {
+        "key": "C",
+        "text": "A solution for software development, requiring no additional input or oversight."
+      },
+      {
+        "key": "D",
+        "text": "A tool solely designed for debugging and error correction."
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": "The correct answer is B: A productivity tool that provides suggestions, but relying on human judgment.. This choice directly describes the supported Copilot behavior asked about, whereas the other options overstate automation, describe unrelated settings, or remove the need for developer review."
+  },
+  {
+    "id": "gh300-035",
+    "question": "How can GitHub Copilot assist developers during the requirements analysis phase of the Software Development Life Cycle (SDLC)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "By automatically generating detailed requirements documents."
+      },
+      {
+        "key": "B",
+        "text": "By providing templates and code snippets that help in documenting requirements."
+      },
+      {
+        "key": "C",
+        "text": "By identifying and fixing potential requirement conflicts when using /help."
+      },
+      {
+        "key": "D",
+        "text": "By managing stakeholder communication and meetings."
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": "The correct answer is B: By providing templates and code snippets that help in documenting requirements.. This choice directly describes the supported Copilot behavior asked about, whereas the other options overstate automation, describe unrelated settings, or remove the need for developer review."
+  },
+  {
+    "id": "gh300-036",
+    "question": "What is a likely effect of GitHub Copilot being trained on commonly used code patterns?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Suggest innovative coding solutions that are not yet popular."
+      },
+      {
+        "key": "B",
+        "text": "Suggest completely novel projects, while reducing time on a project."
+      },
+      {
+        "key": "C",
+        "text": "Suggest code snippets that reflect the most common practices in the training data."
+      },
+      {
+        "key": "D",
+        "text": "Suggest homogeneous solutions if provided a diverse data set."
+      }
+    ],
+    "correctAnswers": [
+      "C"
+    ],
+    "explanation": "The correct answer is C: Suggest code snippets that reflect the most common practices in the training data.. This choice directly describes the supported Copilot behavior asked about, whereas the other options overstate automation, describe unrelated settings, or remove the need for developer review."
+  },
+  {
+    "id": "gh300-037",
+    "question": "What are the effects of content exclusions? (Each correct answer presents part of the solution. Choose two.)",
+    "options": [
+      {
+        "key": "A",
+        "text": "The excluded content is not directly available to GitHub Copilot to use as context."
+      },
+      {
+        "key": "B",
+        "text": "GitHub Copilot suggestions are no longer available in the excluded files."
+      },
+      {
+        "key": "C",
+        "text": "The excluded content is no longer used while debugging the code."
+      },
+      {
+        "key": "D",
+        "text": "The IDE will not count coding suggestions in the excluded content."
+      }
+    ],
+    "correctAnswers": [
+      "A",
+      "B"
+    ],
+    "explanation": "The correct answers are A, B: The excluded content is not directly available to GitHub Copilot to use as context.; GitHub Copilot suggestions are no longer available in the excluded files.. Content exclusion controls what repository content Copilot can directly use as context and can also disable suggestions in excluded files; it is managed through supported Copilot administration settings rather than .gitignore naming conventions."
+  },
+  {
+    "id": "gh300-038",
+    "question": "What is one of the recommended practices when using GitHub Copilot Chat to enhance code quality?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Avoid using Copilot for complex tasks."
+      },
+      {
+        "key": "B",
+        "text": "Disable Copilot's inline suggestions."
+      },
+      {
+        "key": "C",
+        "text": "Regularly review and refactor the code suggested by Copilot."
+      },
+      {
+        "key": "D",
+        "text": "Rely solely on Copilot's suggestions without reviewing them."
+      }
+    ],
+    "correctAnswers": [
+      "C"
+    ],
+    "explanation": "The correct answer is C: Regularly review and refactor the code suggested by Copilot.. This choice directly describes the supported Copilot behavior asked about, whereas the other options overstate automation, describe unrelated settings, or remove the need for developer review."
+  },
+  {
+    "id": "gh300-039",
+    "question": "How can the concept of fairness be integrated into the process of operating an AI tool?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Focusing on accessibility will ensure fairness."
+      },
+      {
+        "key": "B",
+        "text": "Focusing on collecting large datasets for training will ensure fairness."
+      },
+      {
+        "key": "C",
+        "text": "Regularly monitoring the AI tool's performance will ensure fairness in its outputs."
+      },
+      {
+        "key": "D",
+        "text": "Training AI data and algorithms to be free from biases will ensure fairness."
+      }
+    ],
+    "correctAnswers": [
+      "D"
+    ],
+    "explanation": "The correct answer is D: Training AI data and algorithms to be free from biases will ensure fairness.. Fairness requires identifying and reducing unequal outcomes through representative data, bias evaluation, appropriate metrics, and human oversight; scale or accuracy alone does not guarantee fairness."
+  },
+  {
+    "id": "gh300-040",
+    "question": "What two options navigate to configure duplicate detection? (Each correct answer presents part of the solution. Choose two.)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Enterprise settings Copilot Policies"
+      },
+      {
+        "key": "B",
+        "text": "Repository settings Copilot Policies"
+      },
+      {
+        "key": "C",
+        "text": "Organization settings Copilot Policies"
+      },
+      {
+        "key": "D",
+        "text": "User settings Copilot Policies"
+      }
+    ],
+    "correctAnswers": [
+      "A",
+      "C"
+    ],
+    "explanation": "The correct answers are A, C: Enterprise settings Copilot Policies; Organization settings Copilot Policies. This choice directly describes the supported Copilot behavior asked about, whereas the other options overstate automation, describe unrelated settings, or remove the need for developer review."
+  },
+  {
+    "id": "gh300-041",
+    "question": "Why is code reviewing still necessary when using GitHub Copilot to write tests?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Because GitHub Copilot can cover all possible scenarios in your test cases."
+      },
+      {
+        "key": "B",
+        "text": "Because GitHub Copilot generates the best code possible for the test scenario."
+      },
+      {
+        "key": "C",
+        "text": "Because GitHub Copilot's generated test cases may not cover all possible scenarios."
+      },
+      {
+        "key": "D",
+        "text": "Because GitHub Copilot replaces the need for manual testing."
+      }
+    ],
+    "correctAnswers": [
+      "C"
+    ],
+    "explanation": "The correct answer is C: Because GitHub Copilot's generated test cases may not cover all possible scenarios.. Copilot can generate or suggest tests from the available code context, but developers still need to review coverage, assertions, edge cases, and correctness."
+  },
+  {
+    "id": "gh300-042",
+    "question": "What do you check when GitHub Copilot content exclusions are not working? (Each correct answer presents part of the solution. Choose two.)",
+    "options": [
+      {
+        "key": "A",
+        "text": "If GitHub Copilot can connect to the server selected in your user settings."
+      },
+      {
+        "key": "B",
+        "text": "If the user is part of the content exclusion team that limits the use of content exclusions."
+      },
+      {
+        "key": "C",
+        "text": "If the content exclusion settings changed in the last 30 minutes or before that."
+      },
+      {
+        "key": "D",
+        "text": "If the user is in an organization that has content exclusions configured."
+      }
+    ],
+    "correctAnswers": [
+      "C",
+      "D"
+    ],
+    "explanation": "The correct answers are C, D: If the content exclusion settings changed in the last 30 minutes or before that.; If the user is in an organization that has content exclusions configured.. Content exclusion controls what repository content Copilot can directly use as context and can also disable suggestions in excluded files; it is managed through supported Copilot administration settings rather than .gitignore naming conventions."
+  },
+  {
+    "id": "gh300-043",
+    "question": "Which of the following GitHub Copilot Business related activities can be tracked using the organization audit logs?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Accepted chat suggestions"
+      },
+      {
+        "key": "B",
+        "text": "Code suggestions made by GitHub Copilot"
+      },
+      {
+        "key": "C",
+        "text": "Changes to content exclusion settings"
+      },
+      {
+        "key": "D",
+        "text": "Suggestions blocked by duplication detection filtering"
+      }
+    ],
+    "correctAnswers": [
+      "C"
+    ],
+    "explanation": "The correct answer is C: Changes to content exclusion settings. Audit logs are administrative records used to trace configuration and policy actions, not to expose individual generated suggestions or perform license assignment."
+  },
+  {
+    "id": "gh300-044",
+    "question": "How do you generate code suggestions with GitHub Copilot in the CLI?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Write code comments -> Press the suggestion shortcut -> Select the best suggestion from the list."
+      },
+      {
+        "key": "B",
+        "text": "Use copilot suggest -> Write the command you want -> Select the best suggestion from the list."
+      },
+      {
+        "key": "C",
+        "text": "Type out the code snippet -> Use the copilot refine command to enhance it -> Review the suggested command."
+      },
+      {
+        "key": "D",
+        "text": "Describe the project's architecture -> Use the copilot generate command -> Accept the generated suggestion."
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "explanation": "The correct answer is A: Write code comments -> Press the suggestion shortcut -> Select the best suggestion from the list.. The Copilot command-line experience provides AI assistance for terminal-oriented commands and workflows; IDE-only completion actions are not the relevant mechanism."
+  },
+  {
+    "id": "gh300-045",
+    "question": "What is few-shot prompting?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Telling GitHub Copilot about the mechanism you want it to use and how to incorporate that into the response"
+      },
+      {
+        "key": "B",
+        "text": "Telling GitHub Copilot from which sources it should base the response on"
+      },
+      {
+        "key": "C",
+        "text": "Telling GitHub Copilot to try multiple times to answer the prompt"
+      },
+      {
+        "key": "D",
+        "text": "Telling GitHub Copilot to iterate several times on the answer before returning it to you"
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "explanation": "The correct answer is A: Telling GitHub Copilot about the mechanism you want it to use and how to incorporate that into the response. Effective prompting improves results by supplying the model with relevant context, constraints, examples, or success criteria instead of expecting it to infer missing requirements."
+  },
+  {
+    "id": "gh300-046",
+    "question": "A team is using GitHub Copilot Individual in their daily development activities. They need to exclude specific files from being used to inform code completion suggestions. How can they achieve this?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Have an organization owner configure content exclusions"
+      },
+      {
+        "key": "B",
+        "text": "Add a .gitignore file to the repo"
+      },
+      {
+        "key": "C",
+        "text": "Have a repo administrator configure content exclusions"
+      },
+      {
+        "key": "D",
+        "text": "Use the #file Chat variable to exclude the files"
+      },
+      {
+        "key": "E",
+        "text": "Upgrade to Copilot Business"
+      }
+    ],
+    "correctAnswers": [
+      "E"
+    ],
+    "explanation": "The correct answer is E: Upgrade to Copilot Business. Content exclusion controls what repository content Copilot can directly use as context and can also disable suggestions in excluded files; it is managed through supported Copilot administration settings rather than .gitignore naming conventions."
+  },
+  {
+    "id": "gh300-047",
+    "question": "Which of the following does GitHub Copilot's LLM derive context from when producing a response?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Frequency of commits to the repository"
+      },
+      {
+        "key": "B",
+        "text": "Syntax highlighting scheme of the code in the IDE"
+      },
+      {
+        "key": "C",
+        "text": "Neighboring or related files within a project"
+      },
+      {
+        "key": "D",
+        "text": "Version control system integrated with the IDE"
+      }
+    ],
+    "correctAnswers": [
+      "C"
+    ],
+    "explanation": "The correct answer is C: Neighboring or related files within a project. Effective prompting improves results by supplying the model with relevant context, constraints, examples, or success criteria instead of expecting it to infer missing requirements."
+  },
+  {
+    "id": "gh300-048",
+    "question": "Where can you validate if GitHub Copilot is not returning suggestions because of content exclusions?",
+    "options": [
+      {
+        "key": "A",
+        "text": "The GitHub Copilot icon in the status bar of the editor will display a message"
+      },
+      {
+        "key": "B",
+        "text": "The GitHub Copilot logs on GitHub.com under your user settings"
+      },
+      {
+        "key": "C",
+        "text": "The code suggestions window will display a warning message"
+      },
+      {
+        "key": "D",
+        "text": "The GitHub Copilot errors panel in your IDE"
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "explanation": "The correct answer is A: The GitHub Copilot icon in the status bar of the editor will display a message. Content exclusion controls what repository content Copilot can directly use as context and can also disable suggestions in excluded files; it is managed through supported Copilot administration settings rather than .gitignore naming conventions."
+  },
+  {
+    "id": "gh300-049",
+    "question": "What configuration needs to be set to get help from Microsoft and GitHub protecting against IP infringement while using GitHub Copilot?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Suggestions matching public code to 'blocked'"
+      },
+      {
+        "key": "B",
+        "text": "Enforce blocking of MIT or GPL licensed code"
+      },
+      {
+        "key": "C",
+        "text": "You need to check code suggestions yourself before accepting"
+      },
+      {
+        "key": "D",
+        "text": "Enable GitHub Copilot license checking"
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "explanation": "The correct answer is A: Suggestions matching public code to 'blocked'. The public-code matching or duplication-detection policy is intended to identify and, when configured, block suggestions that closely match publicly available code."
+  },
+  {
+    "id": "gh300-050",
+    "question": "Which of the following statements correctly describes how GitHub Copilot Individual uses prompt data? (Each correct answer presents part of the solution. Choose two.)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Prompt data is stored unencrypted for faster processing."
+      },
+      {
+        "key": "B",
+        "text": "Prompt data is used internally by GitHub for improving the search engine."
+      },
+      {
+        "key": "C",
+        "text": "Prompt data is used to train machine learning models for better code suggestions."
+      },
+      {
+        "key": "D",
+        "text": "Real-time user input helps generate context-aware code suggestions."
+      }
+    ],
+    "correctAnswers": [
+      "C",
+      "D"
+    ],
+    "explanation": "The correct answers are C, D: Prompt data is used to train machine learning models for better code suggestions.; Real-time user input helps generate context-aware code suggestions.. Effective prompting improves results by supplying the model with relevant context, constraints, examples, or success criteria instead of expecting it to infer missing requirements."
+  },
+  {
+    "id": "gh300-051",
+    "question": "What type of information can you retrieve through GitHub Copilot Business Subscriptions via REST API? (Each correct answer presents part of the solution. Choose two.)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Get a summary of GitHub Copilot usage for organization members"
+      },
+      {
+        "key": "B",
+        "text": "List all GitHub Copilot seat assignments for an organization"
+      },
+      {
+        "key": "C",
+        "text": "View code suggestions for a specific user"
+      },
+      {
+        "key": "D",
+        "text": "List of all unsubscribed GitHub Copilot members within an organization"
+      }
+    ],
+    "correctAnswers": [
+      "A",
+      "B"
+    ],
+    "explanation": "The correct answers are A, B: Get a summary of GitHub Copilot usage for organization members; List all GitHub Copilot seat assignments for an organization. Copilot APIs expose usage or seat-management information that administrators can use for adoption analysis and subscription management; they do not generate code or judge code quality automatically."
+  },
+  {
+    "id": "gh300-052",
+    "question": "Select a strategy to increase the performance of GitHub Copilot Chat.",
+    "options": [
+      {
+        "key": "A",
+        "text": "Optimize the usage of memory-intensive operations within generated code"
+      },
+      {
+        "key": "B",
+        "text": "Apply prompt engineering techniques to be more specific"
+      },
+      {
+        "key": "C",
+        "text": "Use a single GitHub Copilot Chat query to find resolutions for the collection of technical requirements"
+      },
+      {
+        "key": "D",
+        "text": "Limit the number of concurrent users accessing GitHub Copilot Chat"
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": "The correct answer is B: Apply prompt engineering techniques to be more specific. Copilot can propose targeted improvements based on the code and prompt context, but it does not guarantee an optimal, complete, or automatically applied refactoring."
+  },
+  {
+    "id": "gh300-053",
+    "question": "What is a limitation of content exclusions?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Repository administrators and organization owners cannot manage content exclusion settings."
+      },
+      {
+        "key": "B",
+        "text": "Content exclusions can be worked around as it is only available for Git repositories."
+      },
+      {
+        "key": "C",
+        "text": "Content exclusions can only be configured by an enterprise administrator."
+      },
+      {
+        "key": "D",
+        "text": "Content exclusions are only available in the GitHub Copilot Individual plan."
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": "The correct answer is B: Content exclusions can be worked around as it is only available for Git repositories.. Content exclusion controls what repository content Copilot can directly use as context and can also disable suggestions in excluded files; it is managed through supported Copilot administration settings rather than .gitignore naming conventions."
+  },
+  {
+    "id": "gh300-054",
+    "question": "How can GitHub Copilot aid developers in writing documentation for their code?",
+    "options": [
+      {
+        "key": "A",
+        "text": "GitHub Copilot cannot assist in writing documentation or comments."
+      },
+      {
+        "key": "B",
+        "text": "GitHub Copilot can automatically generate complete and detailed documentation."
+      },
+      {
+        "key": "C",
+        "text": "GitHub Copilot can suggest summaries or descriptions based on the code's functionality."
+      },
+      {
+        "key": "D",
+        "text": "GitHub Copilot can only generate content in markdown format."
+      }
+    ],
+    "correctAnswers": [
+      "C"
+    ],
+    "explanation": "The correct answer is C: GitHub Copilot can suggest summaries or descriptions based on the code's functionality.. Copilot Chat can use the available code context to explain behavior and suggest documentation, helping developers understand unfamiliar code without replacing technical review."
+  },
+  {
+    "id": "gh300-055",
+    "question": "What role does chat history play in GitHub Copilot's code suggestions?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Chat history is used to train the GitHub Copilot model in real-time."
+      },
+      {
+        "key": "B",
+        "text": "Chat history provides context to GitHub Copilot, improving the relevance and accuracy of its code suggestions."
+      },
+      {
+        "key": "C",
+        "text": "Chat history is stored and shared with other users to enhance collaboration."
+      },
+      {
+        "key": "D",
+        "text": "Chat history is irrelevant to GitHub Copilot and does not affect its functionality."
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": "The correct answer is B: Chat history provides context to GitHub Copilot, improving the relevance and accuracy of its code suggestions.. Earlier turns provide conversational context that can make later responses more relevant, but this is different from guaranteeing correctness or sharing the conversation with other users."
+  },
+  {
+    "id": "gh300-056",
+    "question": "What GitHub Copilot feature can be configured at the organization level to prevent GitHub Copilot suggesting publicly available code snippets?",
+    "options": [
+      {
+        "key": "A",
+        "text": "GitHub Copilot Chat in the IDE"
+      },
+      {
+        "key": "B",
+        "text": "GitHub Copilot Chat in GitHub Mobile"
+      },
+      {
+        "key": "C",
+        "text": "GitHub Copilot duplication detection filter"
+      },
+      {
+        "key": "D",
+        "text": "GitHub Copilot access to Bing"
+      }
+    ],
+    "correctAnswers": [
+      "C"
+    ],
+    "explanation": "The correct answer is C: GitHub Copilot duplication detection filter. This choice directly describes the supported Copilot behavior asked about, whereas the other options overstate automation, describe unrelated settings, or remove the need for developer review."
+  },
+  {
+    "id": "gh300-057",
+    "question": "How does GitHub Copilot Enterprise assist in code reviews during the pull request process? (Select two.)",
+    "options": [
+      {
+        "key": "A",
+        "text": "It automatically merges pull requests after an automated review."
+      },
+      {
+        "key": "B",
+        "text": "It generates a prose summary and a bulleted list of key changes for pull requests."
+      },
+      {
+        "key": "C",
+        "text": "It can validate the accuracy of the changes in the pull request."
+      },
+      {
+        "key": "D",
+        "text": "It can answer questions about the changeset of the pull request."
+      }
+    ],
+    "correctAnswers": [
+      "B",
+      "D"
+    ],
+    "explanation": "The correct answers are B, D: It generates a prose summary and a bulleted list of key changes for pull requests.; It can answer questions about the changeset of the pull request.. This choice directly describes the supported Copilot behavior asked about, whereas the other options overstate automation, describe unrelated settings, or remove the need for developer review."
+  },
+  {
+    "id": "gh300-058",
+    "question": "Why is it important to ensure the security of the code used in Generative AI (Gen AI) tools?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Ensuring code security prevents unauthorized access and potential data breaches."
+      },
+      {
+        "key": "B",
+        "text": "Ensuring code security supports the development of more advanced AI features."
+      },
+      {
+        "key": "C",
+        "text": "Ensuring code security enables the AI system to handle larger datasets effectively."
+      },
+      {
+        "key": "D",
+        "text": "Ensuring code security maintains the integrity of the AI system."
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "explanation": "The correct answer is A: Ensuring code security prevents unauthorized access and potential data breaches.. AI-generated code can contain insecure patterns, so suggestions should be reviewed, tested, and checked with normal security practices rather than treated as automatically safe."
+  },
+  {
+    "id": "gh300-059",
+    "question": "What content can be configured to be excluded with content exclusions? (Each correct answer presents part of the solution. Choose three.)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Files"
+      },
+      {
+        "key": "B",
+        "text": "Folders"
+      },
+      {
+        "key": "C",
+        "text": "Lines in files"
+      },
+      {
+        "key": "D",
+        "text": "Gists"
+      },
+      {
+        "key": "E",
+        "text": "Repositories"
+      }
+    ],
+    "correctAnswers": [
+      "A",
+      "B",
+      "E"
+    ],
+    "explanation": "The correct answers are A, B, E: Files; Folders; Repositories. Content exclusion controls what repository content Copilot can directly use as context and can also disable suggestions in excluded files; it is managed through supported Copilot administration settings rather than .gitignore naming conventions."
+  },
+  {
+    "id": "gh300-060",
+    "question": "What is a key consideration when relying on GitHub Copilot Chat's explanations of code functionality and proposed improvements?",
+    "options": [
+      {
+        "key": "A",
+        "text": "The explanations are dynamically updated based on user feedback."
+      },
+      {
+        "key": "B",
+        "text": "Reviewing and validating the generated output for accuracy and completeness."
+      },
+      {
+        "key": "C",
+        "text": "GitHub Copilot Chat uses a static database for generating explanations."
+      },
+      {
+        "key": "D",
+        "text": "The explanations are primarily derived from user-provided documentation."
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": "The correct answer is B: Reviewing and validating the generated output for accuracy and completeness.. The selected answer matches the plan or billing capability described in this question, while the distractors either target a different customer type or name a plan or payment method that does not satisfy the stated requirement."
+  },
+  {
+    "id": "gh300-061",
+    "question": "How does GitHub Copilot Chat help in understanding the existing codebase?",
+    "options": [
+      {
+        "key": "A",
+        "text": "By running code linters and formatters."
+      },
+      {
+        "key": "B",
+        "text": "By providing visual diagrams of the code structure."
+      },
+      {
+        "key": "C",
+        "text": "By answering questions about the code and generating explanations."
+      },
+      {
+        "key": "D",
+        "text": "By automatically refactoring code to improve readability."
+      }
+    ],
+    "correctAnswers": [
+      "C"
+    ],
+    "explanation": "The correct answer is C: By answering questions about the code and generating explanations.. Copilot Chat can use the available code context to explain behavior and suggest documentation, helping developers understand unfamiliar code without replacing technical review."
+  },
+  {
+    "id": "gh300-062",
+    "question": "Identify the right use cases where GitHub Copilot Chat is most effective. (Each correct answer presents part of the solution. Choose two.)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Create a technical requirement specification from the business requirement documentation"
+      },
+      {
+        "key": "B",
+        "text": "Explain a legacy COBOL code and translate the code to another language like Python."
+      },
+      {
+        "key": "C",
+        "text": "Creation of a unit test scenario for newly developed Python code"
+      },
+      {
+        "key": "D",
+        "text": "Creation of end-to-end performance testing scenarios for a web application"
+      }
+    ],
+    "correctAnswers": [
+      "B",
+      "C"
+    ],
+    "explanation": "The correct answers are B, C: Explain a legacy COBOL code and translate the code to another language like Python.; Creation of a unit test scenario for newly developed Python code. This choice directly describes the supported Copilot behavior asked about, whereas the other options overstate automation, describe unrelated settings, or remove the need for developer review."
+  },
+  {
+    "id": "gh300-063",
+    "question": "What are the different ways to give context to GitHub Copilot to get more precise responses? (Each correct answer presents part of the solution. Choose two.)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Utilize to interpret developer's thoughts and intentions without any code or comments."
+      },
+      {
+        "key": "B",
+        "text": "Engage with chat participants such as @workspace to incorporate collaborative context into the responses."
+      },
+      {
+        "key": "C",
+        "text": "Access developer's previous projects and code repositories to understand their coding style without explicit permission."
+      },
+      {
+        "key": "D",
+        "text": "Utilize chat variables like *file to anchor the conversation within the specific context of the files or editors in use."
+      }
+    ],
+    "correctAnswers": [
+      "B",
+      "D"
+    ],
+    "explanation": "The correct answers are B, D: Engage with chat participants such as @workspace to incorporate collaborative context into the responses.; Utilize chat variables like *file to anchor the conversation within the specific context of the files or editors in use.. Effective prompting improves results by supplying the model with relevant context, constraints, examples, or success criteria instead of expecting it to infer missing requirements."
+  },
+  {
+    "id": "gh300-064",
+    "question": "What are the potential limitations of GitHub Copilot Chat? (Each correct answer presents part of the solution. Choose two.)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Limited training data"
+      },
+      {
+        "key": "B",
+        "text": "No biases in code suggestions"
+      },
+      {
+        "key": "C",
+        "text": "Ability to handle complex code structures"
+      },
+      {
+        "key": "D",
+        "text": "Extensive support for all programming languages"
+      }
+    ],
+    "correctAnswers": [
+      "A",
+      "C"
+    ],
+    "explanation": "The correct answers are A, C: Limited training data; Ability to handle complex code structures. This choice directly describes the supported Copilot behavior asked about, whereas the other options overstate automation, describe unrelated settings, or remove the need for developer review."
+  },
+  {
+    "id": "gh300-065",
+    "question": "A social media manager wants to use AI to filter content. How can they promote transparency in the platform??s AI operations?",
+    "options": [
+      {
+        "key": "A",
+        "text": "By regularly updating the AI filtering algorithm."
+      },
+      {
+        "key": "B",
+        "text": "By relying on a well-regarded AI development company."
+      },
+      {
+        "key": "C",
+        "text": "By focusing on user satisfaction with the content filtering."
+      },
+      {
+        "key": "D",
+        "text": "By providing clear explanations about the types of content the AI is designed to filter and how it arrives at its conclusion."
+      }
+    ],
+    "correctAnswers": [
+      "D"
+    ],
+    "explanation": "The correct answer is D: By providing clear explanations about the types of content the AI is designed to filter and how it arrives at its conclusion.. Transparency means clearly communicating what an AI system is designed to do, how it reaches outputs, and what its limitations are so users can understand and evaluate it."
+  },
+  {
+    "id": "gh300-066",
+    "question": "GitHub Copilot in the Command Line Interface (CLI) can be used to configure the following settings: (Each correct answer presents part of the solution. Choose two.)",
+    "options": [
+      {
+        "key": "A",
+        "text": "The default execution confirmation"
+      },
+      {
+        "key": "B",
+        "text": "Usage analytics"
+      },
+      {
+        "key": "C",
+        "text": "The default editor"
+      },
+      {
+        "key": "D",
+        "text": "GitHub CLI subcommands"
+      }
+    ],
+    "correctAnswers": [
+      "A",
+      "B"
+    ],
+    "explanation": "The correct answers are A, B: The default execution confirmation; Usage analytics. The Copilot command-line experience provides AI assistance for terminal-oriented commands and workflows; IDE-only completion actions are not the relevant mechanism."
+  },
+  {
+    "id": "gh300-067",
+    "question": "How does GitHub Copilot Chat utilize its training data and external sources to generate responses when answering coding questions?",
+    "options": [
+      {
+        "key": "A",
+        "text": "It primarily relies on the model's training data to generate responses."
+      },
+      {
+        "key": "B",
+        "text": "It primarily uses search results from Bing to generate responses."
+      },
+      {
+        "key": "C",
+        "text": "It combines its training data set, code in user repositories, and external sources like Bing to generate responses."
+      },
+      {
+        "key": "D",
+        "text": "It uses user-provided documentation exclusively to generate responses."
+      }
+    ],
+    "correctAnswers": [
+      "C"
+    ],
+    "explanation": "The correct answer is C: It combines its training data set, code in user repositories, and external sources like Bing to generate responses.. Copilot generates likely responses from learned patterns and supplied context, so outputs may reproduce outdated, biased, inconsistent, or incorrect patterns and must be validated."
+  },
+  {
+    "id": "gh300-068",
+    "question": "Why might a Generative AI (Gen AI) tool create inaccurate outputs?",
+    "options": [
+      {
+        "key": "A",
+        "text": "The Gen AI tool is overloaded with too many requests at once."
+      },
+      {
+        "key": "B",
+        "text": "The Gen AI tool is experiencing downtime and is not fully recovered."
+      },
+      {
+        "key": "C",
+        "text": "The Gen AI tool is programmed with a focus on creativity over factual accuracy."
+      },
+      {
+        "key": "D",
+        "text": "The training data might contain biases or inconsistencies."
+      }
+    ],
+    "correctAnswers": [
+      "D"
+    ],
+    "explanation": "The correct answer is D: The training data might contain biases or inconsistencies.. Copilot generates likely responses from learned patterns and supplied context, so outputs may reproduce outdated, biased, inconsistent, or incorrect patterns and must be validated."
+  },
+  {
+    "id": "gh300-069",
+    "question": "How can GitHub Copilot assist in maintaining consistency across your tests?",
+    "options": [
+      {
+        "key": "A",
+        "text": "By identifying a pattern in the way you write tests and suggesting similar patterns for future tests."
+      },
+      {
+        "key": "B",
+        "text": "By automatically fixing all tests in the code based on the context."
+      },
+      {
+        "key": "C",
+        "text": "By providing documentation references based on industry best practices."
+      },
+      {
+        "key": "D",
+        "text": "By writing the implementation code for the function based on context."
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "explanation": "The correct answer is A: By identifying a pattern in the way you write tests and suggesting similar patterns for future tests.. Copilot can generate or suggest tests from the available code context, but developers still need to review coverage, assertions, edge cases, and correctness."
+  },
+  {
+    "id": "gh300-070",
+    "question": "Which GitHub Copilot pricing plans include features that exclude your GitHub Copilot data like usage, prompts, and suggestions from default training GitHub Copilot? (Choose two correct answers.)",
+    "options": [
+      {
+        "key": "A",
+        "text": "GitHub Copilot Business"
+      },
+      {
+        "key": "B",
+        "text": "GitHub Copilot Codespace"
+      },
+      {
+        "key": "C",
+        "text": "GitHub Copilot Individual"
+      },
+      {
+        "key": "D",
+        "text": "GitHub Copilot Enterprise"
+      }
+    ],
+    "correctAnswers": [
+      "A",
+      "D"
+    ],
+    "explanation": "The correct answers are A, D: GitHub Copilot Business; GitHub Copilot Enterprise. Effective prompting improves results by supplying the model with relevant context, constraints, examples, or success criteria instead of expecting it to infer missing requirements."
+  },
+  {
+    "id": "gh300-071",
+    "question": "If you are working on open source projects, GitHub Copilot Individual can be paid:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Based on the payment method in your user profile"
+      },
+      {
+        "key": "B",
+        "text": "N/A – Copilot Individual is a free service for all open source projects"
+      },
+      {
+        "key": "C",
+        "text": "Through an invoice or a credit card"
+      },
+      {
+        "key": "D",
+        "text": "Through an Azure Subscription"
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "explanation": "The correct answer is A: Based on the payment method in your user profile. This choice directly describes the supported Copilot behavior asked about, whereas the other options overstate automation, describe unrelated settings, or remove the need for developer review."
+  },
+  {
+    "id": "gh300-072",
+    "question": "Which scenarios can GitHub Copilot Chat be used to increase productivity? (Each correct answer presents part of the solution. Choose two.)",
+    "options": [
+      {
+        "key": "A",
+        "text": "A project plan for the team needs to be generated using a project management software."
+      },
+      {
+        "key": "B",
+        "text": "Create a documentation file for the newly created code base."
+      },
+      {
+        "key": "C",
+        "text": "A developer is added to a new project and would like to understand the current software code."
+      },
+      {
+        "key": "D",
+        "text": "Fast tracking of release management activities to move code to production main branch."
+      }
+    ],
+    "correctAnswers": [
+      "B",
+      "C"
+    ],
+    "explanation": "The correct answers are B, C: Create a documentation file for the newly created code base.; A developer is added to a new project and would like to understand the current software code.. This choice directly describes the supported Copilot behavior asked about, whereas the other options overstate automation, describe unrelated settings, or remove the need for developer review."
+  },
+  {
+    "id": "gh300-073",
+    "question": "What types of prompts or code snippets might be flagged by the GitHub Copilot toxicity filter? (Each correct answer presents part of the solution. Choose two.)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Hate speech or discriminatory language (e.g., racial slurs, offensive stereotypes)"
+      },
+      {
+        "key": "B",
+        "text": "Sexually suggestive or explicit content"
+      },
+      {
+        "key": "C",
+        "text": "Code that contains logical errors or produces unexpected results"
+      },
+      {
+        "key": "D",
+        "text": "Code comments containing strong opinions or criticisms"
+      }
+    ],
+    "correctAnswers": [
+      "A",
+      "B"
+    ],
+    "explanation": "The correct answers are A, B: Hate speech or discriminatory language (e.g., racial slurs, offensive stereotypes); Sexually suggestive or explicit content. Effective prompting improves results by supplying the model with relevant context, constraints, examples, or success criteria instead of expecting it to infer missing requirements."
+  },
+  {
+    "id": "gh300-074",
+    "question": "When using an IDE with a supported GitHub Copilot plug-in, which Chat features can be accessed from within the IDE? (Each correct answer presents part of the solution. Choose two.)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Explain code and suggest improvements"
+      },
+      {
+        "key": "B",
+        "text": "Generate unit tests"
+      },
+      {
+        "key": "C",
+        "text": "Plan coding tasks"
+      },
+      {
+        "key": "D",
+        "text": "Find out about releases and commits"
+      }
+    ],
+    "correctAnswers": [
+      "A",
+      "B"
+    ],
+    "explanation": "The correct answers are A, B: Explain code and suggest improvements; Generate unit tests. This choice directly describes the supported Copilot behavior asked about, whereas the other options overstate automation, describe unrelated settings, or remove the need for developer review."
+  },
+  {
+    "id": "gh300-075",
+    "question": "Which principle emphasizes that AI systems should be understandable and provide clear information on how they work?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Fairness"
+      },
+      {
+        "key": "B",
+        "text": "Transparency"
+      },
+      {
+        "key": "C",
+        "text": "Inclusiveness"
+      },
+      {
+        "key": "D",
+        "text": "Accountability"
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": "The correct answer is B: Transparency. Transparency means clearly communicating what an AI system is designed to do, how it reaches outputs, and what its limitations are so users can understand and evaluate it."
+  },
+  {
+    "id": "gh300-076",
+    "question": "What is the impact of the \"Fill-In-the-Middle\" (FIM) technique on GitHub Copilot's code suggestions?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Restricts Copilot to use only external databases for generating code suggestions."
+      },
+      {
+        "key": "B",
+        "text": "Allows Copilot to generate suggestions based only on the prefix of the code."
+      },
+      {
+        "key": "C",
+        "text": "Ignores both the prefix and suffix of the code, focusing only on user comments for context."
+      },
+      {
+        "key": "D",
+        "text": "Improves suggestions by considering both the prefix and suffix of the code, filling in the middle part more accurately."
+      }
+    ],
+    "correctAnswers": [
+      "D"
+    ],
+    "explanation": "The correct answer is D: Improves suggestions by considering both the prefix and suffix of the code, filling in the middle part more accurately.. This choice directly describes the supported Copilot behavior asked about, whereas the other options overstate automation, describe unrelated settings, or remove the need for developer review."
+  },
+  {
+    "id": "gh300-077",
+    "question": "How can GitHub Copilot assist with code refactoring tasks?",
+    "options": [
+      {
+        "key": "A",
+        "text": "GitHub Copilot can fix syntax errors without user input."
+      },
+      {
+        "key": "B",
+        "text": "GitHub Copilot can automatically rewrite code to follow best practices."
+      },
+      {
+        "key": "C",
+        "text": "GitHub Copilot can suggest refactoring improvements for better code quality."
+      },
+      {
+        "key": "D",
+        "text": "GitHub Copilot can remove unnecessary files from the project directory."
+      }
+    ],
+    "correctAnswers": [
+      "C"
+    ],
+    "explanation": "The correct answer is C: GitHub Copilot can suggest refactoring improvements for better code quality.. Copilot can propose targeted improvements based on the code and prompt context, but it does not guarantee an optimal, complete, or automatically applied refactoring."
+  },
+  {
+    "id": "gh300-078",
+    "question": "Which REST API endpoint is used to modify details about a GitHub Copilot Business subscription? (Each correct answer presents part of the solution. Choose two.)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Add teams to the Copilot subscription for an organization"
+      },
+      {
+        "key": "B",
+        "text": "Upgrade or downgrade the subscription tier"
+      },
+      {
+        "key": "C",
+        "text": "Migrate Copilot seat assignments between GitHub organizations"
+      },
+      {
+        "key": "D",
+        "text": "Reassign Copilot seats based on GitHub repository size"
+      },
+      {
+        "key": "E",
+        "text": "Remove teams from the Copilot subscription for an organization"
+      }
+    ],
+    "correctAnswers": [
+      "A",
+      "E"
+    ],
+    "explanation": "The correct answers are A, E: Add teams to the Copilot subscription for an organization; Remove teams from the Copilot subscription for an organization. Copilot APIs expose usage or seat-management information that administrators can use for adoption analysis and subscription management; they do not generate code or judge code quality automatically."
+  },
+  {
+    "id": "gh300-079",
+    "question": "Which of the following prompts can be used to guide GitHub Copilot Chat in refactoring code for quality improvements? (Each correct answer presents part of the solution. Choose two.)",
+    "options": [
+      {
+        "key": "A",
+        "text": "\"Show me how to improve the readability of this function.\""
+      },
+      {
+        "key": "B",
+        "text": "\"Suggest ways to enhance the maintainability of this code segment.\""
+      },
+      {
+        "key": "C",
+        "text": "\"Refactor my application to meet the latest coding standards.\""
+      },
+      {
+        "key": "D",
+        "text": "\"Predict future coding trends and update my codebase accordingly.\""
+      }
+    ],
+    "correctAnswers": [
+      "A",
+      "B"
+    ],
+    "explanation": "The correct answers are A, B: \"Show me how to improve the readability of this function.\"; \"Suggest ways to enhance the maintainability of this code segment.\". Effective prompting improves results by supplying the model with relevant context, constraints, examples, or success criteria instead of expecting it to infer missing requirements."
+  },
+  {
+    "id": "gh300-080",
+    "question": "How does GitHub Copilot Chat ensure that a function works correctly?",
+    "options": [
+      {
+        "key": "A",
+        "text": "By suggesting assertions based on the code's context and semantics."
+      },
+      {
+        "key": "B",
+        "text": "By automatically writing all the tests for the function."
+      },
+      {
+        "key": "C",
+        "text": "By writing the implementation code for the function."
+      },
+      {
+        "key": "D",
+        "text": "By executing the test cases to validate the correctness of the code."
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "explanation": "The correct answer is A: By suggesting assertions based on the code's context and semantics.. This choice directly describes the supported Copilot behavior asked about, whereas the other options overstate automation, describe unrelated settings, or remove the need for developer review."
+  },
+  {
+    "id": "gh300-081",
+    "question": "How does GitHub Copilot utilize chat history to enhance its code completion capabilities?",
+    "options": [
+      {
+        "key": "A",
+        "text": "By using chat history to offer personalized code snippets based on previous prompts."
+      },
+      {
+        "key": "B",
+        "text": "By logging chat history to monitor user activity and ensure compliance with coding standards."
+      },
+      {
+        "key": "C",
+        "text": "By analyzing past chat interactions to identify common programming patterns and errors."
+      },
+      {
+        "key": "D",
+        "text": "By sharing chat history with third-party services to improve integration and functionality."
+      }
+    ],
+    "correctAnswers": [
+      "C"
+    ],
+    "explanation": "The correct answer is C: By analyzing past chat interactions to identify common programming patterns and errors.. Earlier turns provide conversational context that can make later responses more relevant, but this is different from guaranteeing correctness or sharing the conversation with other users."
+  },
+  {
+    "id": "gh300-082",
+    "question": "What types of content can GitHub Copilot Knowledge Base answer questions about? (Each correct answer presents part of the solution. Choose three.)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Code snippets"
+      },
+      {
+        "key": "B",
+        "text": "Compiled binaries"
+      },
+      {
+        "key": "C",
+        "text": "Documentation"
+      },
+      {
+        "key": "D",
+        "text": "Design patterns"
+      },
+      {
+        "key": "E",
+        "text": "Screenshots"
+      }
+    ],
+    "correctAnswers": [
+      "A",
+      "C",
+      "D"
+    ],
+    "explanation": "The correct answers are A, C, D: Code snippets; Documentation; Design patterns. This choice directly describes the supported Copilot behavior asked about, whereas the other options overstate automation, describe unrelated settings, or remove the need for developer review."
+  },
+  {
+    "id": "gh300-083",
+    "question": "What should developers consider when relying on GitHub Copilot for generating code that involves statistical analysis?",
+    "options": [
+      {
+        "key": "A",
+        "text": "GitHub Copilot can independently verify the statistical significance of results."
+      },
+      {
+        "key": "B",
+        "text": "GitHub Copilot's suggestions are based on statistical trends and may not always apply accurately to specific datasets."
+      },
+      {
+        "key": "C",
+        "text": "GitHub Copilot will automatically correct any statistical errors found in the user's initial code."
+      },
+      {
+        "key": "D",
+        "text": "GitHub Copilot can design new statistical methods that have not been previously documented."
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": "The correct answer is B: GitHub Copilot's suggestions are based on statistical trends and may not always apply accurately to specific datasets.. Copilot generates likely responses from learned patterns and supplied context, so outputs may reproduce outdated, biased, inconsistent, or incorrect patterns and must be validated."
+  },
+  {
+    "id": "gh300-084",
+    "question": "What is a benefit of using custom models in GitHub Copilot?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Responses are faster to produce and appear sooner"
+      },
+      {
+        "key": "B",
+        "text": "Responses use practices and patterns in your repositories"
+      },
+      {
+        "key": "C",
+        "text": "Responses use the organization's LLM engine"
+      },
+      {
+        "key": "D",
+        "text": "Responses are guaranteed to be correct"
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": "The correct answer is B: Responses use practices and patterns in your repositories. This choice directly describes the supported Copilot behavior asked about, whereas the other options overstate automation, describe unrelated settings, or remove the need for developer review."
+  },
+  {
+    "id": "gh300-085",
+    "question": "When crafting prompts for GitHub Copilot, what is a recommended strategy to enhance the relevance of the generated code?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Keep the prompt as short as possible, using single words or brief phrases."
+      },
+      {
+        "key": "B",
+        "text": "Write the prompt in natural language without any programming language."
+      },
+      {
+        "key": "C",
+        "text": "Avoid mentioning the programming language to allow for more flexible suggestions."
+      },
+      {
+        "key": "D",
+        "text": "Provide examples of expected input and output within the prompt."
+      }
+    ],
+    "correctAnswers": [
+      "D"
+    ],
+    "explanation": "The correct answer is D: Provide examples of expected input and output within the prompt.. Effective prompting improves results by supplying the model with relevant context, constraints, examples, or success criteria instead of expecting it to infer missing requirements."
+  },
+  {
+    "id": "gh300-086",
+    "question": "What are two techniques that can be used to improve prompts to GitHub Copilot? (Select two.)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Provide specific success criteria"
+      },
+      {
+        "key": "B",
+        "text": "Provide all information about the utilized files"
+      },
+      {
+        "key": "C",
+        "text": "Provide insight on where to get the content from to get a response"
+      },
+      {
+        "key": "D",
+        "text": "Provide links to supporting documentation"
+      }
+    ],
+    "correctAnswers": [
+      "A",
+      "D"
+    ],
+    "explanation": "The correct answers are A, D: Provide specific success criteria; Provide links to supporting documentation. Effective prompting improves results by supplying the model with relevant context, constraints, examples, or success criteria instead of expecting it to infer missing requirements."
+  },
+  {
+    "id": "gh300-087",
+    "question": "Are there any limitations to consider when using GitHub Copilot for code refactoring?",
+    "options": [
+      {
+        "key": "A",
+        "text": "GitHub Copilot may not always produce optimized or best-practice code for refactoring."
+      },
+      {
+        "key": "B",
+        "text": "GitHub Copilot can only be used with a limited set of programming languages."
+      },
+      {
+        "key": "C",
+        "text": "GitHub Copilot always produces bug-free code during refactoring."
+      },
+      {
+        "key": "D",
+        "text": "GitHub Copilot understands the context of your entire project and refactors code accordingly."
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "explanation": "The correct answer is A: GitHub Copilot may not always produce optimized or best-practice code for refactoring.. Copilot can propose targeted improvements based on the code and prompt context, but it does not guarantee an optimal, complete, or automatically applied refactoring."
+  },
+  {
+    "id": "gh300-088",
+    "question": "What practices enhance the quality of suggestions provided by GitHub Copilot? (Select three.)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Clearly defining the problem or task"
+      },
+      {
+        "key": "B",
+        "text": "Including personal information in the code comments"
+      },
+      {
+        "key": "C",
+        "text": "Using meaningful variable names"
+      },
+      {
+        "key": "D",
+        "text": "Providing examples of desired output"
+      },
+      {
+        "key": "E",
+        "text": "Use a .gitignore file to exclude irrelevant files"
+      }
+    ],
+    "correctAnswers": [
+      "A",
+      "C",
+      "D"
+    ],
+    "explanation": "The correct answers are A, C, D: Clearly defining the problem or task; Using meaningful variable names; Providing examples of desired output. This choice directly describes the supported Copilot behavior asked about, whereas the other options overstate automation, describe unrelated settings, or remove the need for developer review."
+  },
+  {
+    "id": "gh300-089",
+    "question": "How can GitHub Copilot be limited when it comes to suggesting unit tests?",
+    "options": [
+      {
+        "key": "A",
+        "text": "GitHub Copilot can generate all types of unit tests, including those for edge cases and complex integration scenarios."
+      },
+      {
+        "key": "B",
+        "text": "GitHub Copilot primarily suggests basic unit tests that focus on core functionalities, often requiring additional input from developers for comprehensivecoverage."
+      },
+      {
+        "key": "C",
+        "text": "GitHub Copilot can handle any complexity in code and automatically generate appropriate unit tests."
+      },
+      {
+        "key": "D",
+        "text": "GitHub Copilot's limitations in generating unit tests can vary based on the IDE version you are using."
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": "The correct answer is B: GitHub Copilot primarily suggests basic unit tests that focus on core functionalities, often requiring additional input from developers for comprehensivecoverage.. Copilot can generate or suggest tests from the available code context, but developers still need to review coverage, assertions, edge cases, and correctness."
+  },
+  {
+    "id": "gh300-090",
+    "question": "How can you improve the context used by GitHub Copilot? (Each correct answer presents part of the solution. Choose two.)",
+    "options": [
+      {
+        "key": "A",
+        "text": "By opening the relevant tabs in your IDE"
+      },
+      {
+        "key": "B",
+        "text": "By adding relevant code snippets to your prompt"
+      },
+      {
+        "key": "C",
+        "text": "By adding the important files to your .gitconfig"
+      },
+      {
+        "key": "D",
+        "text": "By adding the full file paths to your prompt of important files"
+      }
+    ],
+    "correctAnswers": [
+      "A",
+      "B"
+    ],
+    "explanation": "The correct answers are A, B: By opening the relevant tabs in your IDE; By adding relevant code snippets to your prompt. Effective prompting improves results by supplying the model with relevant context, constraints, examples, or success criteria instead of expecting it to infer missing requirements."
+  },
+  {
+    "id": "gh300-091",
+    "question": "When can GitHub Copilot still use content that was excluded using content exclusion?",
+    "options": [
+      {
+        "key": "A",
+        "text": "When the user prompts with @workspace."
+      },
+      {
+        "key": "B",
+        "text": "When the repository-level settings allow overrides by the user."
+      },
+      {
+        "key": "C",
+        "text": "If the contents of an excluded file are referenced in code that is not excluded, for example function calls."
+      },
+      {
+        "key": "D",
+        "text": "If the content exclusion was configured at the enterprise level, and is overwritten at theorganization level."
+      }
+    ],
+    "correctAnswers": [
+      "C"
+    ],
+    "explanation": "The correct answer is C: If the contents of an excluded file are referenced in code that is not excluded, for example function calls.. Content exclusion controls what repository content Copilot can directly use as context and can also disable suggestions in excluded files; it is managed through supported Copilot administration settings rather than .gitignore naming conventions."
+  },
+  {
+    "id": "gh300-092",
+    "question": "How long does it take content exclusion to add or be updated?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Up to 30 minutes"
+      },
+      {
+        "key": "B",
+        "text": "45 - 60 minutes"
+      },
+      {
+        "key": "C",
+        "text": "60 - 90 minutes"
+      },
+      {
+        "key": "D",
+        "text": "24 hours"
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "explanation": "The correct answer is A: Up to 30 minutes. Content exclusion controls what repository content Copilot can directly use as context and can also disable suggestions in excluded files; it is managed through supported Copilot administration settings rather than .gitignore naming conventions."
+  },
+  {
+    "id": "gh300-093",
+    "question": "What role does the pre-processing of user input play in the data flow of GitHub Copilot Chat?",
+    "options": [
+      {
+        "key": "A",
+        "text": "It filters out irrelevant information from the user's input prompt."
+      },
+      {
+        "key": "B",
+        "text": "It enriches the input prompt with additional context before passing it to the language model."
+      },
+      {
+        "key": "C",
+        "text": "It directly generates a response based on the user's input prompt."
+      },
+      {
+        "key": "D",
+        "text": "It formats the output response before presenting it to the user."
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": "The correct answer is B: It enriches the input prompt with additional context before passing it to the language model.. This choice directly describes the supported Copilot behavior asked about, whereas the other options overstate automation, describe unrelated settings, or remove the need for developer review."
+  },
+  {
+    "id": "gh300-094",
+    "question": "What method can be used to interact with GitHub Copilot?",
+    "options": [
+      {
+        "key": "A",
+        "text": "By using a properly configured GitHub CLI"
+      },
+      {
+        "key": "B",
+        "text": "By using chat capabilities in NeoVim"
+      },
+      {
+        "key": "C",
+        "text": "From a watch window in an IDE debug session"
+      },
+      {
+        "key": "D",
+        "text": "From a web browser at https://github.copilot.com"
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": "The correct answer is B: By using chat capabilities in NeoVim. This choice directly describes the supported Copilot behavior asked about, whereas the other options overstate automation, describe unrelated settings, or remove the need for developer review."
+  },
+  {
+    "id": "gh300-095",
+    "question": "What is the main purpose of the duplication detection filter in GitHub Copilot?",
+    "options": [
+      {
+        "key": "A",
+        "text": "To compare user-generated code against a private repository for potential matches."
+      },
+      {
+        "key": "B",
+        "text": "To allow administrators to control which suggestions are visible to developers based on custom criteria."
+      },
+      {
+        "key": "C",
+        "text": "To encourage the user to follow coding best practices preventing code duplication."
+      },
+      {
+        "key": "D",
+        "text": "To detect and block suggestions that match public code snippets on GitHub if they contain about 150 characters."
+      }
+    ],
+    "correctAnswers": [
+      "D"
+    ],
+    "explanation": "The correct answer is D: To detect and block suggestions that match public code snippets on GitHub if they contain about 150 characters.. The public-code matching or duplication-detection policy is intended to identify and, when configured, block suggestions that closely match publicly available code."
+  },
+  {
+    "id": "gh300-096",
+    "question": "Which GitHub Copilot plan could an Azure DevOps organization use without requiring a GitHub Enterprise license?",
+    "options": [
+      {
+        "key": "A",
+        "text": "GitHub Copilot Individual"
+      },
+      {
+        "key": "B",
+        "text": "GitHub Copilot Enterprise"
+      },
+      {
+        "key": "C",
+        "text": "GitHub Copilot for Azure DevOps"
+      },
+      {
+        "key": "D",
+        "text": "Copilot Teams"
+      }
+    ],
+    "correctAnswers": [
+      "C"
+    ],
+    "explanation": "The correct answer is C: GitHub Copilot for Azure DevOps. The selected answer matches the plan or billing capability described in this question, while the distractors either target a different customer type or name a plan or payment method that does not satisfy the stated requirement."
+  },
+  {
+    "id": "gh300-097",
+    "question": "When using GitHub Copilot Chat to generate unit tests, which slash command would you use?",
+    "options": [
+      {
+        "key": "A",
+        "text": "/init-tests"
+      },
+      {
+        "key": "B",
+        "text": "/create-tests"
+      },
+      {
+        "key": "C",
+        "text": "/generate-tests"
+      },
+      {
+        "key": "D",
+        "text": "/tests"
+      }
+    ],
+    "correctAnswers": [
+      "D"
+    ],
+    "explanation": "The correct answer is D: /tests. Copilot can generate or suggest tests from the available code context, but developers still need to review coverage, assertions, edge cases, and correctness."
+  },
+  {
+    "id": "gh300-098",
+    "question": "Which of the following is a risk associated with using AI?",
+    "options": [
+      {
+        "key": "A",
+        "text": "AI algorithms are incapable of perpetuating existing biases."
+      },
+      {
+        "key": "B",
+        "text": "AI systems can sometimes make decisions that are difficult to interpret."
+      },
+      {
+        "key": "C",
+        "text": "AI eliminates the need for data privacy regulations."
+      },
+      {
+        "key": "D",
+        "text": "AI replaces the need for developer opportunities in most fields."
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": "The correct answer is B: AI systems can sometimes make decisions that are difficult to interpret.. This choice directly describes the supported Copilot behavior asked about, whereas the other options overstate automation, describe unrelated settings, or remove the need for developer review."
+  },
+  {
+    "id": "gh300-099",
+    "question": "You are using GitHub Copilot Chat to generate code for a function that validates customer orders. Which prompt is most likely to produce a useful and accurate response?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Write code."
+      },
+      {
+        "key": "B",
+        "text": "Create a function."
+      },
+      {
+        "key": "C",
+        "text": "Create a C# method named ValidateOrder that accepts an Order object, verifies that the customer ID is present and the total amount is greater than zero, and returns a validation result containing the validation errors."
+      },
+      {
+        "key": "D",
+        "text": "Make the order code better."
+      }
+    ],
+    "correctAnswers": [
+      "C"
+    ],
+    "explanation": "A specific prompt provides the language, function name, input, validation rules, expected behavior, and output requirements. This gives Copilot more relevant context and constraints."
+  },
+  {
+    "id": "gh300-100",
+    "question": "Which GitHub Copilot capability is specifically intended to help developers execute commands, generate scripts, and work with files from the command line?",
+    "options": [
+      {
+        "key": "A",
+        "text": "GitHub Copilot CLI"
+      },
+      {
+        "key": "B",
+        "text": "GitHub Copilot Code Review"
+      },
+      {
+        "key": "C",
+        "text": "GitHub Copilot Spaces"
+      },
+      {
+        "key": "D",
+        "text": "GitHub Copilot Pull Request summaries"
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "explanation": "GitHub Copilot CLI provides Copilot assistance directly from the command line and supports interactive sessions, commands, scripts, and file management."
+  }
+]
