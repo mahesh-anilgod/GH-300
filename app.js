@@ -299,6 +299,30 @@ function submitCurrentAnswer() {
     renderCurrentQuestion();
 }
 
+
+function showAnswerResult(question, savedAnswer) {
+    const isCorrect = Boolean(savedAnswer && savedAnswer.correct);
+
+    elements.answerResult.classList.remove("hidden");
+    elements.answerResult.classList.toggle("wrong", !isCorrect);
+
+    const selectedText = savedAnswer && savedAnswer.selectedAnswers.length > 0
+        ? getOptionText(question, savedAnswer.selectedAnswers)
+        : "Not answered";
+
+    const correctText = getOptionText(question, question.correctAnswers);
+    const explanation = question.explanation
+        ? `<div class="explanation"><strong>Explanation:</strong><br>${escapeHtml(question.explanation)}</div>`
+        : "";
+
+    elements.answerResult.innerHTML = `
+        <h3>${isCorrect ? "Correct!" : "Incorrect"}</h3>
+        <div><strong>Your answer:</strong> ${escapeHtml(selectedText)}</div>
+        <div><strong>Correct answer:</strong> ${escapeHtml(correctText)}</div>
+        ${explanation}
+    `;
+}
+
 function moveToNextQuestion() {
     if (activeTest.currentIndex >= activeTest.questionIds.length - 1) {
         finishTest();
